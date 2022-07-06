@@ -1,8 +1,8 @@
 
 /*
 Template Name: Kevin	
-Author: MarkUps
-Author URI: http://www.markups.io/
+Authors: William Smith & MarkUps
+OriginalAuthor URI: http://www.markups.io/
 Version: 1.0
 */
 
@@ -92,7 +92,7 @@ h2
 h3 
 {  
 	font-size: 26px;  
-	padding-top: 20px;
+	padding-top: 5px;
 }
 
 h4 
@@ -847,6 +847,15 @@ button:focus
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
+@media (min-width: 1200px)
+{
+	.mu-about-content-left img
+	{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}
+
 @media (max-width: 1199px)
 {
 
@@ -860,17 +869,15 @@ button:focus
 		margin: 10px 12px 5px;
 	}
 
+	.mu-about-content-left img
+	{
+		padding-top: 130px;
+	}
+
 	.mu-about-content-right 
 	{
 		margin-top: 0;
 	}
-
-	.mu-skill-progress-bar h3 
-	{
-		margin-top: 0;
-	}
-
-	
 }
 
 @media (max-width: 991px) 
@@ -905,6 +912,7 @@ button:focus
 
 	.mu-about-content-left img
 	{
+		padding-top: 0px;
 		width: 100%;
 	}
 
@@ -1141,11 +1149,6 @@ button:focus
 	.filtr-item h4 
 	{
 		font-size: 18px;
-	}
-
-	.mu-team-content .row > div 
-	{
-		width: 100%;
 	}
 
 	.mu-simplefilter li 
